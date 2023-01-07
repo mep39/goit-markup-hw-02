@@ -85,6 +85,9 @@ body {
   color: #FFFFFF;  
 }
 .hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -92,11 +95,9 @@ body {
   color: #FFFFFF;
   background: #4D5AE5;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
-.hero-btn :hover,
-.hero-btn :focus {
+.hero-btn:hover,
+.hero-btn:focus { 
   background: var(--primery-color);
 }
  
@@ -116,19 +117,22 @@ clip: rect(0
 }   
 .portfolio {    
 }
-.portfolio-btn-list {
+.portfolio-btn-list { 
 }
 .portfolio-btn-list :hover,
 .portfolio-btn-list :focus {
 }
 .portfolio-btn-item button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
   text-decoration: none;
   line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
-  color: #4D5AE5;
+  letter-spacing: 0.04em; 
+  color: #4D5AE5;  
   background: #F4F4FD;
 }
 .portfolio-btn-item :hover,
